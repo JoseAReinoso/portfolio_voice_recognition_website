@@ -5,7 +5,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/JoseAReinoso/Voice_recognition_Website.git"
+    "url": "https://github.com/JoseAReinoso/portfolio_voice_recognition_website.git"
   },
   "dependencies": {
     "classnames": "2.2.6",
