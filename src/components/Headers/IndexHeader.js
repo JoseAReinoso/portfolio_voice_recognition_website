@@ -24,6 +24,11 @@ import { Container } from "reactstrap";
 
 // core components
 
+const circleImg = {
+  margin:"20px 35%",
+  width: "30%"
+}
+
 function IndexHeader() {
   return (
     <>
@@ -47,8 +52,9 @@ function IndexHeader() {
               </div>
             </div>
             <h2 className="presentation-subtitle text-center">
-              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
+            Talk to my portfolio page and learn more about me!
             </h2>
+            <img  style={circleImg} src={require("assets/img/faces/JoseReinoso.jpg")} class="img-circle img-no-padding img-responsive" alt="Rounded Image"></img>
           </Container>
         </div>
         <div
